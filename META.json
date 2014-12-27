@@ -4,7 +4,7 @@
       "Chris Williams"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
@@ -37,6 +37,14 @@
             "Acme::MetaSyntactic::List" : "1.001",
             "perl" : "v5.6.0"
          }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0.47"
+         }
       }
    },
    "release_status" : "stable",
@@ -48,6 +56,6 @@
          "web" : "https://github.com/bingos/acme-metasyntactic-legobatman"
       }
    },
-   "version" : "0.02"
+   "version" : "0.04"
 }
 
